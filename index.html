@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <title>Whee</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script src="js/script.js"></script>
+
+        <center><h1>html bilmiuom help</h1></center>
+        
+        <hr>
+        
+        <h3><pre>Discord: HeIchDei#0512
+Steam: <a href="https://steamcommunity.com/id/heichdei">HeIchDei</a>
+Spotify: <a href="https://open.spotify.com/user/iuvrrhe2kz2xv3wo8t53rh5ma?si=9b3c1ef09c1d483d">HeIchDei</a>
+        </h3></pre>
+
+        <img src="images/solence.jpg" alt="Solence Logo" id="solenceLogo">
+        <br>
+        
+        <input type="text" id="content" placeholder="Enter text">
+        <button id="sendButton" onclick="sendWebhook()">Button</button>
+        <script>
+            $("#content").keypress(function(event) {
+                if (event.keyCode === 13) {
+                    $("#sendButton").click();
+                }
+            });
+        </script>
+
+
+
+    </body>
+</html>
